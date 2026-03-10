@@ -3,7 +3,7 @@
 A custom status line for [Claude Code](https://claude.ai/claude-code) that shows model, git info, context usage, cost, and time until rate limit reset.
 
 ```
-🤖 Opus 4.6   🌿 main +12/-3   ████████░░░░░░░░░░░░ 40%
+🤖 Opus 4.6   🌿 main +12/-3   💭 ████████░░░░░░░░░░░░ 40%
 💰 $1.08 spent   ⏱️  2h 30m until reset
 ```
 
@@ -32,7 +32,7 @@ Restart Claude Code after installing.
 |---------|-------------|
 | 🤖 Model | Current Claude model |
 | 🌿 Git | Branch name + insertions/deletions |
-| Context bar | Color-coded usage (green/yellow/red) |
+| 💭 Context bar | Color-coded usage (green/yellow/red) |
 | 💰 Cost | Spending in current 5-hour block (via ccusage) |
 | ⏱️ Timer | Time until rate limit resets |
 
