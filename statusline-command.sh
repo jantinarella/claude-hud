@@ -43,7 +43,7 @@ else
   bar_color=$'\033[31m'   # red
 fi
 
-context_bar="${bar_color}${bar}${reset} ${used_int}%"
+context_bar="💭 ${bar_color}${bar}${reset} ${used_int}%"
 
 # --- Line 2: Cost + Time remaining (cached, refreshes every 5 min) ---
 
