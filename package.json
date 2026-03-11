@@ -1,9 +1,9 @@
 {
   "name": "claude-hud",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Custom status line for Claude Code CLI with model, git, context, cost, and usage timer",
   "bin": {
-    "claude-hud": "./bin/install.mjs"
+    "claude-hud": "bin/install.mjs"
   },
   "keywords": [
     "claude",
